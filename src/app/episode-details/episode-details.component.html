@@ -1,0 +1,37 @@
+<div class="episode-details">
+  <h2>{{ episodeDetails.title }}</h2>
+  <p class="episode-uid">ref. {{ episodeDetails.uid }}</p>
+
+  <div class="episode-details-line">
+    <i class="material-icons">ondemand_video</i>
+    <h3>
+      {{ episodeDetails.series.title }} | Season
+      {{ episodeDetails.seasonNumber }} - Episode
+      {{ episodeDetails.episodeNumber }}
+    </h3>
+  </div>
+  <img
+    src="https://images.emojiterra.com/twitter/512px/1f596-1f3fd.png"
+    alt="vulcan-salute"
+  />
+  <div class="episode-details-line character-container">
+    <div class="character-title">
+      <i class="material-icons">people</i>
+      <h4>{{ episodeDetails.characters.length }} characters</h4>
+    </div>
+
+    <div class="character-list">
+      <div
+        class="episode-details-character"
+        *ngFor="let character of episodeDetails.characters"
+      >
+        <i class="material-icons">face</i>
+        <p>{{ character.name }}</p>
+      </div>
+    </div>
+  </div>
+  <img
+    src="https://images.emojiterra.com/mozilla/512px/1f680.png"
+    alt="space-rocket"
+  />
+</div>

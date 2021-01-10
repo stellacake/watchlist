@@ -1,0 +1,10 @@
+<div class="cards-container">
+  <div *ngFor="let episode of array">
+    <div class="episode-card" [routerLink]="['/episodes', episode.uid]">
+      <h2>{{ episode.title }}</h2>
+      <h3>{{ episode.series.title }}</h3>
+      <h4>{{ episode.season.title }}, episode {{ episode.episodeNumber }}</h4>
+      <p>ref. {{ episode.uid }}</p>
+    </div>
+  </div>
+</div>

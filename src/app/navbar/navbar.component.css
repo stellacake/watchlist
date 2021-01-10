@@ -1,0 +1,25 @@
+@import "../../styles.css";
+
+.navbar {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(253, 90, 96, 1);
+  color: white;
+}
+
+a {
+  height: 100px;
+  margin-right: 16px;
+}
+
+a:hover {
+  opacity: 0.8;
+  margin-right: 16px;
+}
+
+img {
+  width: 100px;
+  margin: 0;
+  padding: 0;
+}

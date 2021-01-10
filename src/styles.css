@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+*:not(.material-icons) {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: O;
+  background-color: #fafafa;
+  color: #484848;
+}
+
+h2 {
+  color: rgba(253, 90, 96, 1);
+  margin-top: 8px;
+}

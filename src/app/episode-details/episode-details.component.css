@@ -1,0 +1,57 @@
+@import "../../styles.css";
+
+.episode-details h2 {
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+img {
+  width: 128px;
+  margin: 32px;
+}
+
+.episode-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.episode-uid {
+  font-size: 13px;
+  margin: 0;
+}
+
+.episode-details-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0 24px 0;
+}
+
+.episode-details-character {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.character-container {
+  flex-direction: column;
+}
+.character-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-list {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-icons {
+  margin-right: 8px;
+  color: rgba(253, 90, 96, 1);
+}
